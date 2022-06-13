@@ -32,28 +32,27 @@
         android:id="@+id/EmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="10dp"
-        android:layout_below="@+id/textView"
         android:hint="Enter your email"
-        android:inputType="textEmailAddress"
-       />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/TextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/TextPhone"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="30dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="10dp"
-        android:layout_below="@+id/TextPhone"
-        android:inputType="textPassword"
-       android:hint="Enter your password"/>
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
 
     <EditText
         android:id="@+id/TextPhone"
